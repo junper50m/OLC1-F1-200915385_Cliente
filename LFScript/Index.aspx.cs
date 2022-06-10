@@ -20,13 +20,15 @@ namespace LFScript
 
         protected void btn_EjecutarPost_Click(object sender, EventArgs e)
         {
+            String texto = Editor.Text;
             var datos = new data
             {
                 id="2",
                 token = "xd1sa",
-                datos = "Evaluar[1+1]; Evaluar[1 + 1 * 2]; Evaluar[-(1 + 1 * 6 / 3 - 5 + 7)];  Evaluar[-(1 + 1 * 6 / 3 - 5 + 1 * -2)]; Evaluar[-(1.6 + 1.45)]; " 
+                datos = texto
             };
             string jsonString = JsonConvert.SerializeObject(datos);
+            
             ServicioPost(jsonString);
             //Alerta(jsonString);
 
@@ -80,7 +82,8 @@ namespace LFScript
                 salida = ex.Message;
             }
 
-            Alerta(salida);
+            Editor.Text =salida+"\n";
+            //Alerta(salida);
 
         }
 

@@ -2360,15 +2360,12 @@ progress {
 
 .form-control {
     display: block;
-    width: 100%;
-    padding: .375rem .75rem;
     font-size: .875rem;
     font-weight: 300;
     line-height: 1.5;
     color: rgba(255,255,255,.75);
     background-color: transparent;
     background-clip: padding-box;
-    border: 1px solid rgba(255,255,255,.3);
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -23297,12 +23294,12 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+                    font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
                     font-weight: 900;
                     font-style: normal;
                     font-variant: normal;
                     text-rendering: auto
-                }
+}
 
         .app-theme-panel .app-theme-panel-content .app-theme-cover {
             margin: -.25rem;
@@ -23352,12 +23349,12 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+                    font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
                     font-weight: 900;
                     font-style: normal;
                     font-variant: normal;
                     text-rendering: auto
-                }
+}
 
     .app-theme-panel .app-theme-toggle-btn {
         position: absolute;
@@ -24549,7 +24546,7 @@ pre {
 }
 
     .datepicker .next:before, .datepicker .prev:before {
-        font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+        font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
         font-weight: 900;
         font-style: normal;
         font-variant: normal;
@@ -24557,7 +24554,7 @@ pre {
         position: absolute;
         width: 1.875rem;
         text-indent: 0
-    }
+}
 
     .datepicker .next:before {
         content: "\f061";
@@ -25110,12 +25107,12 @@ body .daterangepicker.show-ranges .drp-calendar.left {
             }
 
             .bootstrap-timepicker-widget.dropdown-menu.open table tbody tr td a .glyphicon {
-                font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+                font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
                 font-weight: 900;
                 font-style: normal;
                 font-variant: normal;
                 text-rendering: auto
-            }
+}
 
                 .bootstrap-timepicker-widget.dropdown-menu.open table tbody tr td a .glyphicon.glyphicon-chevron-up:before {
                     content: "\f077"
@@ -25154,13 +25151,13 @@ body .daterangepicker.show-ranges .drp-calendar.left {
             .bootstrap-table .fixed-table-container .table thead tr th .sortable:after {
                 content: "";
                 position: absolute;
-                font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+                font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
                 font-weight: 900;
                 font-style: normal;
                 font-variant: normal;
                 text-rendering: auto;
                 right: .625rem
-            }
+}
 
             .bootstrap-table .fixed-table-container .table thead tr th .sortable.both:after {
                 content: "\f0dc";
@@ -25230,12 +25227,12 @@ body .daterangepicker.show-ranges .drp-calendar.left {
         color: rgba(255,255,255,.5);
         line-height: 1;
         margin-left: auto;
-        font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+        font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
         font-weight: 900;
         font-style: normal;
         font-variant: normal;
         text-rendering: auto
-    }
+}
 
 .fc-event-list .fc-event-item + .fc-event-item {
     margin-top: .5rem
@@ -25500,12 +25497,12 @@ body .typeahead__container {
             content: "\f00d";
             position: absolute;
             color: var(--bs-body-color);
-            font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+            font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
             font-weight: 900;
             font-style: normal;
             font-variant: normal;
             text-rendering: auto
-        }
+}
 
     body .typeahead__container .typeahead__result .typeahead__list {
         background: rgba(29,40,53,.98);
@@ -25750,19 +25747,21 @@ body .picker {
 
         body .picker > .pc-element .pc-close {
             position: relative;
-            margin: 0;
             top: 0;
             color: #fff;
             opacity: .5;
             font-size: .75rem;
-            font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+            font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
             font-weight: 900;
             font-style: normal;
             font-variant: normal;
             text-rendering: auto;
             margin-left: .5rem;
-            right: 0
-        }
+            right: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
             body .picker > .pc-element .pc-close:after {
                 content: "\f00d" !important
@@ -26209,12 +26208,12 @@ body .note-modal-backdrop {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+                        font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
                         font-weight: 900;
                         font-style: normal;
                         font-variant: normal;
                         text-rendering: auto
-                    }
+}
 
                         .tagit.ui-widget li.tagit-choice .tagit-close .ui-icon-close:after {
                             content: "\f00d" !important
@@ -26881,13 +26880,13 @@ body .note-modal-backdrop {
             text-align: center;
             color: rgba(255,255,255,.5);
             width: 1.125rem;
-            font-family: Font Awesome\ 5 Free,Font Awesome\ 5 Pro,FontAwesome !important;
+            font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", FontAwesome !important;
             font-weight: 900;
             font-style: normal;
             font-variant: normal;
             text-rendering: auto;
             left: 0
-        }
+}
 
     .mailbox .mailbox-list .mailbox-checkbox {
         position: relative

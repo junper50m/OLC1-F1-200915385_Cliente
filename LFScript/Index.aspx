@@ -80,6 +80,11 @@
                                 <div class="scrollContainer">
                                     <div class="panel" id="home">
                                         <div>
+                                                <div class="form-group mb-3">
+                                                <label class="form-label" for="exampleFormControlTextarea1">Editor</label>
+                                                <asp:TextBox runat="server" TextMode="MultiLine" class="form-control" id="Editor" rows="3" Height="208px" Width="914px"></asp:TextBox>
+                                                </div>
+
                                                 <asp:Button runat="server" Text="Ejecutar Post" ID="btn_EjecutarPost" class="btn btn-secondary buttons-csv buttons-html5 btn-outline-default btn-sm" tabindex="0" aria-controls="datatableDefault" type="button" OnClick="btn_EjecutarPost_Click" Height="36px" Width="206px">
                                                
                                                 </asp:Button>
@@ -91,6 +96,11 @@
                                                 </asp:Button>
 
                                         </div>
+
+                                        <div class="form-group mb-3">
+                                                <label class="form-label" for="exampleFormControlTextarea1">Consola</label>
+                                                <asp:TextBox runat="server" TextMode="MultiLine" class="form-control" id="Consola" rows="3" Height="128px" Width="919px"></asp:TextBox>
+                                                </div>
 
                                     </div>
                                     <!-- end of home -->
