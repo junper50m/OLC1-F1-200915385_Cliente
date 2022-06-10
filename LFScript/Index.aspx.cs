@@ -22,8 +22,9 @@ namespace LFScript
         {
             var datos = new data
             {
-                nombre = "Carlos",
-                apellido = "Gonzales"
+                id="2",
+                token = "xd1sa",
+                datos = "Evaluar[1+1]; Evaluar[1 + 1 * 2]; Evaluar[-(1 + 1 * 6 / 3 - 5 + 7)];  Evaluar[-(1 + 1 * 6 / 3 - 5 + 1 * -2)]; Evaluar[-(1.6 + 1.45)]; " 
             };
             string jsonString = JsonConvert.SerializeObject(datos);
             ServicioPost(jsonString);
@@ -123,8 +124,9 @@ namespace LFScript
 
         public class data
         {
-            public string nombre { get; set; }
-            public string apellido { get; set; }
+            public string id { get; set; }
+            public string token { get; set; }
+            public string datos { get; set; }
         }
 
         public void Alerta(string a)
