@@ -79,28 +79,17 @@
                             <div class="scroll">
                                 <div class="scrollContainer">
                                     <div class="panel" id="home">
-                                        <div class="col_280 float_l">
-                                            <h2>Introduction</h2>
-                                            <a href="http://www.templatemo.com/page/1">
-                                                <img src="image/templatemo_image_01.jpg" alt="Image 1" class="image_wrapper" /></a>
+                                        <div>
+                                                <asp:Button runat="server" Text="Ejecutar Post" ID="btn_EjecutarPost" class="btn btn-secondary buttons-csv buttons-html5 btn-outline-default btn-sm" tabindex="0" aria-controls="datatableDefault" type="button" OnClick="btn_EjecutarPost_Click" Height="36px" Width="206px">
+                                               
+                                                </asp:Button>
 
-                                            <p><em>Nullam at erat ipsum, quis tincidunt mauris. Nunc sit amet sapien eget eros iaculis hendrerit quis a enim. Vestibulum at leo ante, vel auctor velit.</em></p>
-
-                                            <p align="justify">Platform Template is provided by <a href="http://www.templatemo.com" target="_parent">templatemo.com</a> for anyone. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>. Feel free to use this template for your websites. Credits go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://jwloh.deviantart.com/art/Aquaticus-Social-91014249">jwloh</a> for Aquaticus, and <a href="http://www.icojoy.com" target="_blank">IcoJoy.com</a> for icons used in this template.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere, magna id ornare mollis, mi erat gravida massa, ac mollis lorem risus non purus.</p>
                                         </div>
-                                        <div class="col_280 float_r">
-                                            <h2>Web Design</h2>
-                                            <a href="http://www.templatemo.com/page/2">
-                                                <img src="image/templatemo_image_02.jpg" alt="Image 2" class="image_wrapper" /></a>
-                                            <p>Morbi rutrum euismod elit, nec adipiscing ante sodales sed. Proin auctor, tortor vel aliquam bibendum, ligula diam aliquam nibh.</p>
-                                            <ul class="service_list">
-                                                <li><a href="http://www.templatemo.com/page/1" class="service_one">Morbi luctus vitae cursus</a></li>
-                                                <li><a href="http://www.templatemo.com/page/2" class="service_two">Pellentesq tris senectus</a></li>
-                                                <li><a href="http://www.templatemo.com/page/3" class="service_three">Duis at commodo molestie</a></li>
-                                                <li><a href="http://www.templatemo.com/page/4" class="service_four">In aliquet in libero</a></li>
-                                                <li><a href="http://www.templatemo.com/page/5" class="service_five">Maecenas ut pretium</a></li>
-                                            </ul>
+                                        <div>
+                                            <asp:Button runat="server" Text="Ejecutar Get" ID="btn_EjecutarGet" class="btn btn-secondary buttons-csv buttons-html5 btn-outline-default btn-sm" tabindex="0" aria-controls="datatableDefault" type="button" OnClick="btn_EjecutarGet_Click" Height="36px" Width="206px">
+                                               
+                                                </asp:Button>
+
                                         </div>
 
                                     </div>
