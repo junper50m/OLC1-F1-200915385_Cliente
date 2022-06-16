@@ -21,6 +21,7 @@ namespace LFScript
         protected void btn_EjecutarPost_Click(object sender, EventArgs e)
         {
             String texto = Editor.Text;
+            Consola.Text = "";
             var datos = new data
             {
                 id="2",
@@ -82,7 +83,8 @@ namespace LFScript
                 salida = ex.Message;
             }
 
-            Editor.Text =salida+"\n";
+            Consola.Text =salida+"\n";
+            
             //Alerta(salida);
 
         }
